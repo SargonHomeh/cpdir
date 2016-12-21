@@ -19,7 +19,7 @@ void throwerror(char * arg);
 int main(int argc, const char * argv[]) {
     // Command line input
     if(argc != 3)
-        printf("usage: copydirectory <source> <destination>\n");
+        printf("usage: cpdir <source> <destination>\n");
     else
         copydirectory((char*)argv[1], (char*)argv[2]);
     
